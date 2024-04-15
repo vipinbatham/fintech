@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/libs/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
+    <title>Finycle</title>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+        <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand" href="index.html">Finycle</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <li class="nav-item">
+                            <div id="custom-search" class="top-search-bar">
+                                <input class="form-control" type="text" placeholder="Search..">
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown notification">
+                            <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span
+                                    class="indicator"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                                <li>
+                                    <div class="notification-title"> Notification</div>
+                                    <div class="notification-list">
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action active">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img
+                                                            src="assets/images/avatar-2.jpg" alt=""
+                                                            class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span
+                                                            class="notification-list-user-name">Jeremy
+                                                            Rakestraw</span>accepted your invitation to join the team.
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img
+                                                            src="assets/images/avatar-3.jpg" alt=""
+                                                            class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span
+                                                            class="notification-list-user-name">John Abraham </span>is
+                                                        now following you
+                                                        <div class="notification-date">2 days ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img
+                                                            src="assets/images/avatar-4.jpg" alt=""
+                                                            class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span
+                                                            class="notification-list-user-name">Monaan Pechi</span> is
+                                                        watching your main repository
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img
+                                                            src="assets/images/avatar-5.jpg" alt=""
+                                                            class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span
+                                                            class="notification-list-user-name">Jessica
+                                                            Caruso</span>accepted your invitation to join the team.
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-footer"> <a href="#">View all notifications</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown connection">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"> <i class="fas fa-fw fa-th"></i> </a>
+                            <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
+                                <li class="connection-list">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/github.png"
+                                                    alt=""> <span>Github</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/dribbble.png"
+                                                    alt=""> <span>Dribbble</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/dropbox.png"
+                                                    alt=""> <span>Dropbox</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/bitbucket.png"
+                                                    alt=""> <span>Bitbucket</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/mail_chimp.png"
+                                                    alt=""><span>Mail chimp</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/slack.png"
+                                                    alt=""> <span>Slack</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="conntection-footer"><a href="#">More</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown nav-user">
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                                    src="assets/images/avatar-1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+                            <div class="dropdown-menu dropdown-menu-right nav-user-dropdown"
+                                aria-labelledby="navbarDropdownMenuLink2">
+                                <div class="nav-user-info">
+                                    <h5 class="mb-0 text-white nav-user-name">Vipin Batham </h5>
+                                    <span class="status"></span><span class="ml-2">Available</span>
+                                </div>
+                                <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end navbar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+        <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                Menu
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="dashboard-finance.html" data-toggle="collapse"
+                                    aria-expanded="false"><i class="fa fa-fw fa-user-circle"></i>Dashboard <span
+                                        class="badge badge-success">6</span></a>
+                                <div id="submenu-1" class="collapse submenu" style="">
+                                    <!-- <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="dashboard-finance.html">Finance</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="dashboard-sales.html">Sales</a>
+                                        </li>
+                                    </ul>-->
+                                </div>
+                                <!-- Accounting section menu -->
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false"
+                                    data-target="#submenu-2" aria-controls="submenu-2"><i
+                                        class="fa fa-book"></i>Accoounting <span
+                                        class="badge badge-success">6</span></a>
+                                <div id="submenu-2" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="Accounting.html">Acounting</a>
+                                        </li>
+                                    </ul>
+                                    <!-- Billing section -->
+                                </div>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false"
+                                    data-target="#submenu-3" aria-controls="submenu-3"><i
+                                        class="far fa-file"></i>Billing <span class="badge badge-success">6</span></a>
+                                <div id="submenu-3" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="invoice.html">Invoice creation</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link " href="eways.html">E-ways</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="generateestimate.html">Generate Estimate</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <!--My Document check and update-->
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="blank-page-header.html"><i class="fa fa-file"></i>My
+                                    Document <span class="badge badge-success">6</span></a>
+                                <!-- <div style="">
+                                     <ul class="nav flex-column">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="invoice.html">Invoice creation</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="generateestimate.html">Generate Estimate</a>
+                                        </li>
+                                    </ul> 
+                                </div> -->
+                                <!-- Tools of  Taxation -->
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false"
+                                    data-target="#submenu-4" aria-controls="submenu-4"><i
+                                        class="fa fa-fw fa-user-circle"></i>Tax Tools<span
+                                        class="badge badge-success">6</span></a>
+                                <div id="submenu-4" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="invoice.html">tool1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="generateestimate.html">Other Tools</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Reports -->
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false"
+                                    data-target="#submenu-5" aria-controls="submenu-5"><i
+                                        class="fa fa-fw fa-user-circle"></i>Reports <span
+                                        class="badge badge-success">6</span></a>
+                                <div id="submenu-5" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="reports.html">Account Report</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <!-- E-ways -->
+
+                                <!-- Loan Request -->
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="loan.html"><i class="fas fa-rupee-sign"></i>Loan<span
+                                        class="badge badge-success">6</span></a>
+                                <!-- <ul class="nav flex-column">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="invoice.html">Invoice creation</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="generateestimate.html">Generate Estimate</a>
+                                        </li>
+                                    </ul> -->
+                    </div>
+            </div>
+
+            <!-- Loan Request -->
+
+            </nav>
+        </div>
+    </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end left sidebar -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- wrapper  -->
+    <!-- ============================================================== -->
+    <div class="dashboard-wrapper">
+        <div class="container-fluid dashboard-content">
+            <div class="reports-table-wrapper fill-container table-container">
+                <div class="scroll-y noscroll-x fill body scrollbox reports-top rep-new-band">
+                    <div class="rep-container">
+                        <div id="ember1170" class="fill-container ember-view">
+                            <!---->
+                        </div>
+                        <div class="page-header text-center">
+                            <h4>Demo Org</h4>
+                            <h3>Balance Sheet</h3> <span data-test-title="report-basis">Basis: Cash</span>
+                            <h5 data-test-title="as-of-date">As of 13 May 2022</h5>
+                            <div class="tags">
+                                <!---->
+                            </div>
+                        </div>
+                        <!-- <div class="btn-group collapse-button"><label class="btn btn-secondary btn-small font-xs "
+                                data-ember-action="" data-ember-action-1171="1171"> Collapse all </label> <label
+                                class="btn btn-secondary btn-small font-xs active" data-ember-action=""
+                                data-ember-action-1172="1172"> Expand All </label>
+                            </div> -->
+                        <div class="reports-table-wrapper fill-container table-container">
+                            </div>
+                    </div>
+                            <table class="table zi-table financial-comparison table-no-border table-light">
+                                <thead>
+                                    <tr class="rep-fin-th">
+                                        <th style="" id="ember1174" class="sortable text-left ember-view">
+                                            <div class="position-relative ">
+                                                <div class="float-left over-flow" title="Account"> Account
+                                                    <!---->
+                                                </div>
+                                                <!---->
+                                            </div>
+                                        </th>
+                                        <th style="" id="ember1176" class="sortable text-left ember-view">
+                                            <div class="position-relative ">
+                                                <div class="float-left over-flow" title="Account Code"> Account Code
+                                                    <!---->
+                                                </div>
+                                                <!---->
+                                            </div>
+                                        </th>
+                                        <th class="text-right over-flow">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="account-group-name" colspan="3"><span>Assets</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pt-3">Current Assets</td>
+                                        <td class="pt-3">&nbsp;</td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <!---->
+                                    <tr>
+                                        <td>Bank</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1185="1185"> Bank
+                                                Acc 1 </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1186="1186"> -483.478,225 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1189="1189"> Bank
+                                                Of America </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1190="1190"> 12.571,281 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1193="1193"> Eur
+                                                Bank Account </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1194="1194"> 570,680 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1197="1197"> New
+                                                Acc 1 </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1198="1198"> -8.758,890 </a> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td class="rep-ttl text-right"> -479.095,154 </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cash</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1202="1202">
+                                                Petty Cash </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1203="1203"> -1.057.645,419 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1206="1206">
+                                                Undeposited Funds </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1207="1207"> -6.993,690 </a> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td class="rep-ttl text-right"> -1.064.639,109 </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Other Current Assets</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1211="1211">
+                                                Advance Tax </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1212="1212"> 100,990 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1215="1215">
+                                                Employee Advance </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1216="1216"> -891,951 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1219="1219">
+                                                Input VAT </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1220="1220"> 16,670 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1223="1223">
+                                                Sales to Customers (Cash) </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1224="1224"> 18.588,706 </a> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td class="rep-ttl text-right"> 17.814,415 </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Other Assets</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1228="1228">
+                                                Error </a>
+                                        </td>
+                                        <td>Error</td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1229="1229"> -100,990 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1232="1232">
+                                                GoCardless Clearing </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1233="1233"> 3,600 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1236="1236">
+                                                GoCardless Clearing - EUR </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1237="1237"> 0,001 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1240="1240">
+                                                GoCardless Clearing - GBP </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1241="1241"> 0,000 </a> </td>
+                                    </tr>
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1244="1244">
+                                                Inventory Asset </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1245="1245"> -10.502,000 </a> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td class="rep-ttl text-right"> -10.599,389 </td>
+                                    </tr>
+                                    <tr class="rep-subttl">
+                                        <td class="over-flow"><b>Total Current Assets</b></td>
+                                        <td>&nbsp;</td>
+                                        <td class="text-right" data-test-title="accountBroadGrp-total"> -1.536.519,237
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pt-3">Fixed Assets</td>
+                                        <td class="pt-3">&nbsp;</td>
+                                    </tr>
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;"> <a
+                                                class="subaccount-toggle" href="#" data-ember-action=""
+                                                data-ember-action-1249="1249">  </a> <a href="#" data-ember-action=""
+                                                data-ember-action-1250="1250"> Furniture and Equipment </a> </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1251="1251"> 5.197,890 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            &nbsp;&nbsp;&nbsp;&nbsp; <a class="subaccount-toggle" href="#"
+                                                data-ember-action="" data-ember-action-1254="1254">  </a> <a href="#" data-ember-action=""
+                                                data-ember-action-1255="1255"> Fun </a> </td>
+                                        <td>12</td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1256="1256"> 0,000 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#"
+                                                data-ember-action="" data-ember-action-1259="1259"> bugfix account </a>
+                                        </td>
+                                        <td>1200</td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1260="1260"> 1.200,000 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class="highlight-subaccount-section balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;"> <strong>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total for Fun </strong>
+                                        </td>
+                                        <td>12</td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1263="1263">1.200,000</a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class="highlight-subaccount-section balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;"> <strong>
+                                                &nbsp;&nbsp;&nbsp;&nbsp; Total for Furniture and Equipment </strong>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1266="1266">6.397,890</a> </td>
+                                    </tr>
+                                    <!---->
+                                    <tr class="rep-subttl">
+                                        <td class="over-flow"><b>Total Fixed Assets</b></td>
+                                        <td>&nbsp;</td>
+                                        <td class="text-right" data-test-title="accountBroadGrp-total"> 6.397,890 </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right over-flow">TOTAL ASSETS</td>
+                                        <td>&nbsp;</td>
+                                        <td class="rep-grandTtl text-right"> -1.530.121,347 </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="account-group-name" colspan="3"><span>Liabilities &amp;
+                                                Equities</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pt-3">Current Liabilities</td>
+                                        <td class="pt-3">&nbsp;</td>
+                                    </tr>
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1271="1271">
+                                                Employee Reimbursements </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1272="1272"> 4.724,000 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1275="1275">
+                                                HMRC-PAYE </a>
+                                        </td>
+                                        <td>5670</td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1276="1276"> -200,000 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1279="1279">
+                                                Opening Balance Adjustments </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1280="1280"> 12.597,200 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1283="1283">
+                                                Output VAT </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1284="1284"> -9,200 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1287="1287">
+                                                Unearned Revenue </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1288="1288"> -21.330,000 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1291="1291"> VAT
+                                                MOSS Payable </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1292="1292"> -16.687,180 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1295="1295"> VAT
+                                                Payable </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1296="1296"> -67.545,420 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <tr class="rep-subttl">
+                                        <td class="over-flow"><b>Total Current Liabilities</b></td>
+                                        <td>&nbsp;</td>
+                                        <td class="text-right" data-test-title="accountBroadGrp-total"> -88.450,600
+                                        </td>
+                                    </tr>
+                                    <!---->
+                                    <tr>
+                                        <td class="pt-3">Other Liabilities</td>
+                                        <td class="pt-3">&nbsp;</td>
+                                    </tr>
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1301="1301"> Tag
+                                                Adjustments </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1302="1302"> 0.00 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <tr class="rep-subttl">
+                                        <td class="over-flow"><b>Total Other Liabilities</b></td>
+                                        <td>&nbsp;</td>
+                                        <td class="text-right" data-test-title="accountBroadGrp-total"> 0.00 </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pt-3">Equities</td>
+                                        <td class="pt-3">&nbsp;</td>
+                                    </tr>
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1306="1306">
+                                                Current Year Earnings </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1307="1307"> -692.708,544 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1310="1310">
+                                                Opening Balance Offset </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1311="1311"> 143,000 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;">
+                                            <!----> <a href="#" data-ember-action="" data-ember-action-1314="1314">
+                                                Owner's Equity </a>
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> <a href="#" data-ember-action=""
+                                                data-ember-action-1315="1315"> 449,540 </a> </td>
+                                    </tr>
+                                    <!---->
+                                    <!---->
+                                    <tr class=" balance-tr">
+                                        <td class="text-left over-flow" style="padding-right:0;"> Retained Earnings
+                                        </td>
+                                        <td></td>
+                                        <td class="text-right"> -749.554,743 </td>
+                                    </tr>
+                                    <!---->
+                                    <tr class="rep-subttl">
+                                        <td class="over-flow"><b>Total Equities</b></td>
+                                        <td>&nbsp;</td>
+                                        <td class="text-right" data-test-title="accountBroadGrp-total"> -1.441.670,747
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-right over-flow">TOTAL LIABILITIES &amp; EQUITIES</td>
+                                        <td>&nbsp;</td>
+                                        <td class="rep-grandTtl text-right"> -1.530.121,347 </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!---->
+                            <div>
+                                <!---->
+                                <p><small>**Amount is displayed in your base currency</small>&nbsp;<span
+                                        class="badge text-semibold badge-success d-inline">INR</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <!---->
+               
+            </div>
+
+            <!-- /grid column -->
+            <!-- grid column -->
+
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <div class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            Copyright © 2018 Concept. All rights reserved. Dashboard by <a
+                                href="https://colorlib.com/wp/">Colorlib</a>.
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="text-md-right footer-links d-none d-sm-block">
+                                <a href="javascript: void(0);">About</a>
+                                <a href="javascript: void(0);">Support</a>
+                                <a href="javascript: void(0);">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- end footer -->
+            <!-- ============================================================== -->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <script src='assets/libs/js/main-js.js'></script>
+
+</body>
+
+</html>
